@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/src/tlm_analysis_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/src/tlm_analysis_fifo_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/sequences/transaction.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/drivers/driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/monitors/monitor.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/sequences/generator.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/scoreboards/scoreboard.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/agents/agent.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/env/env.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/testbench/tests/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/tlm_analysis_fifo_tb/src/tlm_analysis_fifo_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module tlm_analysis_fifo_tb

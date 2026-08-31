@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/src/add_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/src/add.sv" into library work
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/sequences/transaction.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/drivers/driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/monitors/monitor.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/sequences/generator.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/agents/agent.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/scoreboards/scoreboard.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/env/env.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/testbench/tests/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/add_tb/src/add_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module add_tb

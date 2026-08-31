@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/src/spi_ram.sv" into library work
+INFO: [VRFC 10-311] analyzing module spi_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/src/spi_ram_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/sequences/transaction.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/drivers/driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/monitors/monitor.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/sequences/generator.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/agents/agent.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/scoreboards/scoreboard.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/env/env.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/testbench/tests/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/spi_ram_tb/src/spi_ram_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module spi_ram_tb

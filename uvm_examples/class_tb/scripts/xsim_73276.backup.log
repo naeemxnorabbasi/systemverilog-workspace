@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 20 04:26:22 2026
+# Process ID         : 73276
+# Current directory  : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/class_tb/scripts
+# Command line       : xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file           : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/class_tb/scripts/xsim.log
+# Journal file       : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/class_tb/scripts/xsim.jou
+# Running On         : pop-os
+# Platform           : Pop
+# Operating System   : Pop!_OS 22.04 LTS
+# Processor Detail   : AMD Ryzen 7 7800X3D 8-Core Processor
+# CPU Frequency      : 4826.240 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 32714 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 49894 MB
+# Available Virtual  : 37533 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[0] Starting class construct demo
+[0] FEATURE: F1 Register new/load
+[0] FEATURE: F2 handles and new forms
+[0] FEATURE: F3 member access
+[0] FEATURE: F4 param by value
+[0] FEATURE: F5 param by type
+[0] FEATURE: F7 ShiftRegister load/shiftleft
+[0] FEATURE: F8 super.new in derived constructor
+[0] FEATURE: F9 static instance_count
+[0] FEATURE: F10 $cast base -> derived
+[0] FEATURE: DUT load from Register class
+[90000] PASS: class construct demo complete
+$finish called at time : 90001 ps : File "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/class_tb/src/class_tb.sv" Line 165
+exit
+INFO: xsimkernel Simulation Memory Usage: 303440 KB (Peak: 347900 KB), Simulation CPU Usage: 640 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 20 04:26:24 2026...

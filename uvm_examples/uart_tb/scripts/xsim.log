@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 20 03:31:54 2026
+# Process ID         : 65192
+# Current directory  : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/scripts
+# Command line       : xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file           : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/scripts/xsim.log
+# Journal file       : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/scripts/xsim.jou
+# Running On         : pop-os
+# Platform           : Pop
+# Operating System   : Pop!_OS 22.04 LTS
+# Processor Detail   : AMD Ryzen 7 7800X3D 8-Core Processor
+# CPU Frequency      : 4864.829 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 32714 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 49894 MB
+# Available Virtual  : 38317 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -testplusarg UVM_TESTNAME=test -testplusarg UVM_VERBOSITY=UVM_LOW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(29) @ 10000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 10000: uvm_test_top.env.s [SCO] BAUD:x LEN:x PAR_T:x PAR_EN:x STOP:x TX_DATA:x RX_DATA:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(27) @ 10000: uvm_test_top.env.s [SCO] System Reset
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(29) @ 30000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 30000: uvm_test_top.env.s [SCO] BAUD:x LEN:x PAR_T:x PAR_EN:x STOP:x TX_DATA:x RX_DATA:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(27) @ 30000: uvm_test_top.env.s [SCO] System Reset
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(29) @ 50000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 50000: uvm_test_top.env.s [SCO] BAUD:x LEN:x PAR_T:x PAR_EN:x STOP:x TX_DATA:x RX_DATA:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(27) @ 50000: uvm_test_top.env.s [SCO] System Reset
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(29) @ 70000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 70000: uvm_test_top.env.s [SCO] BAUD:x LEN:x PAR_T:x PAR_EN:x STOP:x TX_DATA:x RX_DATA:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(27) @ 70000: uvm_test_top.env.s [SCO] System Reset
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(29) @ 90000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 90000: uvm_test_top.env.s [SCO] BAUD:x LEN:x PAR_T:x PAR_EN:x STOP:x TX_DATA:x RX_DATA:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(27) @ 90000: uvm_test_top.env.s [SCO] System Reset
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv(69) @ 90000: uvm_test_top.env.a.d [DRV] BAUD:14400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:13
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(47) @ 1484910000: uvm_test_top.env.a.m [MON] BAUD:14400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:13 RX_DATA:13
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 1484910000: uvm_test_top.env.s [SCO] BAUD:14400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:13 RX_DATA:13
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(29) @ 1484910000: uvm_test_top.env.s [SCO] Test Passed
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv(69) @ 1484910000: uvm_test_top.env.a.d [DRV] BAUD:14400 LEN:8 PAR_T:1 PAR_EN:0 STOP:0 TX_DATA:124
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(47) @ 3149310000: uvm_test_top.env.a.m [MON] BAUD:14400 LEN:8 PAR_T:1 PAR_EN:0 STOP:0 TX_DATA:124 RX_DATA:124
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 3149310000: uvm_test_top.env.s [SCO] BAUD:14400 LEN:8 PAR_T:1 PAR_EN:0 STOP:0 TX_DATA:124 RX_DATA:124
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(29) @ 3149310000: uvm_test_top.env.s [SCO] Test Passed
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv(69) @ 3149310000: uvm_test_top.env.a.d [DRV] BAUD:9600 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:114
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(47) @ 5660670000: uvm_test_top.env.a.m [MON] BAUD:9600 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:114 RX_DATA:114
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 5660670000: uvm_test_top.env.s [SCO] BAUD:9600 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:114 RX_DATA:114
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(29) @ 5660670000: uvm_test_top.env.s [SCO] Test Passed
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv(69) @ 5660670000: uvm_test_top.env.a.d [DRV] BAUD:4800 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:174
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(47) @ 10675710000: uvm_test_top.env.a.m [MON] BAUD:4800 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:174 RX_DATA:174
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 10675710000: uvm_test_top.env.s [SCO] BAUD:4800 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:174 RX_DATA:174
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(29) @ 10675710000: uvm_test_top.env.s [SCO] Test Passed
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv(69) @ 10675710000: uvm_test_top.env.a.d [DRV] BAUD:38400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:112
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv(47) @ 11289910000: uvm_test_top.env.a.m [MON] BAUD:38400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:112 RX_DATA:112
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(25) @ 11289910000: uvm_test_top.env.s [SCO] BAUD:38400 LEN:8 PAR_T:0 PAR_EN:0 STOP:0 TX_DATA:112 RX_DATA:112
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv(29) @ 11289910000: uvm_test_top.env.s [SCO] Test Passed
+----------------------------------------------------------------
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 11289930000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 11289930000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   40
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]     5
+[MON]    10
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[SCO]    20
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 11289930 ns : File "/tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: xsimkernel Simulation Memory Usage: 316816 KB (Peak: 360760 KB), Simulation CPU Usage: 3400 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 20 03:31:58 2026...

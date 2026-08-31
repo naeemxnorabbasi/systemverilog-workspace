@@ -1,0 +1,284 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 20 02:14:54 2026
+# Process ID         : 51318
+# Current directory  : /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/scripts
+# Command line       : xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file           : /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/scripts/xsim.log
+# Journal file       : /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/scripts/xsim.jou
+# Running On         : pop-os
+# Platform           : Pop
+# Operating System   : Pop!_OS 22.04 LTS
+# Processor Detail   : AMD Ryzen 7 7800X3D 8-Core Processor
+# CPU Frequency      : 4814.507 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 32714 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 49894 MB
+# Available Virtual  : 32656 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -testplusarg UVM_TESTNAME=test -testplusarg UVM_VERBOSITY=UVM_LOW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 0: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 10000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 10000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 10000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 30000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 30000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 30000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 50000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 50000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 50000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 70000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 70000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 70000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 90000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 90000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 90000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 110000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 110000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 110000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 130000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 130000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 130000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 150000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 150000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 150000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 170000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 170000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 170000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 190000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 190000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 190000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 210000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 210000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 210000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 230000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 230000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 230000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 250000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 250000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 250000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 270000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 270000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(111) @ 270000: uvm_test_top.env.a.seqr@@rstdut [SEQ] MODE : RESET
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(33) @ 290000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(26) @ 290000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 290000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 27 ADDR : 6 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 290000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 6  din : 27
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:27
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:27 arr_wr:27
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 207 ADDR : 7 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 7  din : 207
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 1330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:207
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 1330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:207 arr_wr:207
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 1330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 166 ADDR : 6 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 1330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 6  din : 166
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 1830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:166
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 1830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:166 arr_wr:166
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 1830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 75 ADDR : 6 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 1830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 6  din : 75
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 2330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:75
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 2330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:75 arr_wr:75
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 2330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 174 ADDR : 1 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 2330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 1  din : 174
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 2830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:1 data:174
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 2830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:1, wdata:174 arr_wr:174
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 2830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 56 ADDR : 5 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 2830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 5  din : 56
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 3330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:5 data:56
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 3330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:5, wdata:56 arr_wr:56
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 3330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 114 ADDR : 8 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 3330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 8  din : 114
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 3830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:114
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 3830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:114 arr_wr:114
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 3830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 163 ADDR : 4 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 3830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 4  din : 163
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 4330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:4 data:163
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 4330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:4, wdata:163 arr_wr:163
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 4330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 143 ADDR : 0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 4330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 0  din : 143
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 4830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:143
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 4830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:143 arr_wr:143
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 4830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 110 ADDR : 1 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 4830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 1  din : 110
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 5330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:1 data:110
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 5330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:1, wdata:110 arr_wr:110
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 5330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 37 ADDR : 4 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 5330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 4  din : 37
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 5830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:4 data:37
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 5830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:4, wdata:37 arr_wr:37
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 5830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 233 ADDR : 5 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 5830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 5  din : 233
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 6330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:5 data:233
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 6330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:5, wdata:233 arr_wr:233
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 6330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 111 ADDR : 9 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 6330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 9  din : 111
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 6830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:9 data:111
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 6830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:9, wdata:111 arr_wr:111
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 6830000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 190 ADDR : 7 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 6830000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 7  din : 190
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 7330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:190
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 7330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:190 arr_wr:190
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(54) @ 7330000: uvm_test_top.env.a.seqr@@wdata [SEQ] MODE : WRITE DIN : 20 ADDR : 0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(46) @ 7330000: uvm_test_top.env.a.d [DRV] mode : WRITE addr : 0  din : 20
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(47) @ 7830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:20
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(31) @ 7830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:20 arr_wr:20
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 7830000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 4 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 7830000: uvm_test_top.env.a.d [DRV] mode : READ addr : 4  din : 37
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 8310000: uvm_test_top.env.a.m [MON] DATA READ addr:4 data:37 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 8310000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:4, rdata:37
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 8310000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 8 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 8310000: uvm_test_top.env.a.d [DRV] mode : READ addr : 8  din : 248
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 8790000: uvm_test_top.env.a.m [MON] DATA READ addr:8 data:114 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 8790000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:8, rdata:114
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 8790000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 5 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 8790000: uvm_test_top.env.a.d [DRV] mode : READ addr : 5  din : 202
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 9270000: uvm_test_top.env.a.m [MON] DATA READ addr:5 data:233 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 9270000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:5, rdata:233
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 9270000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 9 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 9270000: uvm_test_top.env.a.d [DRV] mode : READ addr : 9  din : 98
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 9790000: uvm_test_top.env.a.m [MON] DATA READ addr:9 data:111 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 9790000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:9, rdata:111
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 9790000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 2 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 9790000: uvm_test_top.env.a.d [DRV] mode : READ addr : 2  din : 215
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 10270000: uvm_test_top.env.a.m [MON] DATA READ addr:2 data:0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 10270000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:2, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 10270000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 7 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 10270000: uvm_test_top.env.a.d [DRV] mode : READ addr : 7  din : 52
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 10750000: uvm_test_top.env.a.m [MON] DATA READ addr:7 data:190 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 10750000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:7, rdata:190
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 10750000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 2 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 10750000: uvm_test_top.env.a.d [DRV] mode : READ addr : 2  din : 173
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 11270000: uvm_test_top.env.a.m [MON] DATA READ addr:2 data:0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 11270000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:2, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 11270000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 2 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 11270000: uvm_test_top.env.a.d [DRV] mode : READ addr : 2  din : 174
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 11750000: uvm_test_top.env.a.m [MON] DATA READ addr:2 data:0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 11750000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:2, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 11750000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 5 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 11750000: uvm_test_top.env.a.d [DRV] mode : READ addr : 5  din : 188
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 12230000: uvm_test_top.env.a.m [MON] DATA READ addr:5 data:233 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 12230000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:5, rdata:233
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 12230000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 12230000: uvm_test_top.env.a.d [DRV] mode : READ addr : 0  din : 157
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 12750000: uvm_test_top.env.a.m [MON] DATA READ addr:0 data:20 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 12750000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:0, rdata:20
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 12750000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 1 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 12750000: uvm_test_top.env.a.d [DRV] mode : READ addr : 1  din : 60
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 13230000: uvm_test_top.env.a.m [MON] DATA READ addr:1 data:110 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 13230000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:1, rdata:110
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 13230000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 8 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 13230000: uvm_test_top.env.a.d [DRV] mode : READ addr : 8  din : 0
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 13710000: uvm_test_top.env.a.m [MON] DATA READ addr:8 data:114 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 13710000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:8, rdata:114
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 13710000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 5 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 13710000: uvm_test_top.env.a.d [DRV] mode : READ addr : 5  din : 120
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 14190000: uvm_test_top.env.a.m [MON] DATA READ addr:5 data:233 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 14190000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:5, rdata:233
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 14190000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 10 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 14190000: uvm_test_top.env.a.d [DRV] mode : READ addr : 10  din : 213
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 14710000: uvm_test_top.env.a.m [MON] DATA READ addr:10 data:0 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 14710000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:10, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/sequences/transaction.sv(83) @ 14710000: uvm_test_top.env.a.seqr@@rdata [SEQ] MODE : READ ADDR : 9 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/drivers/driver.sv(56) @ 14710000: uvm_test_top.env.a.d [DRV] mode : READ addr : 9  din : 31
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/monitors/monitor.sv(58) @ 15190000: uvm_test_top.env.a.m [MON] DATA READ addr:9 data:111 
+UVM_INFO /home/naeemxnorabbasi/Downloads/uvm_testbench_examples-main/i2c_tb/testbench/scoreboards/scoreboard.sv(39) @ 15190000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:9, rdata:111
+----------------------------------------------------------------
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 15190000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 15190000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  170
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    30
+[MON]    45
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[SCO]    45
+[SEQ]    45
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 15190 ns : File "/tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: xsimkernel Simulation Memory Usage: 316488 KB (Peak: 360448 KB), Simulation CPU Usage: 670 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 20 02:14:56 2026...

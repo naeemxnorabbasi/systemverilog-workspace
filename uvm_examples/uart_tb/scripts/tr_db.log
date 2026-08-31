@@ -1,0 +1,1 @@
+  CREATE_STREAM @0 {NAME:rb8lwop T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:666}

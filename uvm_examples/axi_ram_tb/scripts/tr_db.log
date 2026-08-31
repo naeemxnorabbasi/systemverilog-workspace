@@ -1,0 +1,10 @@
+  CREATE_STREAM @0 {NAME:rdut T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:606}
+  CREATE_STREAM @65000 {NAME:errwrrdfix T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:667}
+  CREATE_STREAM @765000 {NAME:vwrrdfx T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:713}
+  CREATE_STREAM @1465000 {NAME:vwrrdincr T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:759}
+  CREATE_STREAM @2165000 {NAME:vwrrdwrap T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:805}
+  CREATE_STREAM @0 {NAME:rdut T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:606}
+  CREATE_STREAM @65000 {NAME:errwrrdfix T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:667}
+  CREATE_STREAM @765000 {NAME:vwrrdfx T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:713}
+  CREATE_STREAM @1465000 {NAME:vwrrdincr T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:759}
+  CREATE_STREAM @2165000 {NAME:vwrrdwrap T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:805}

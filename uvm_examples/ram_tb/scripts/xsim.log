@@ -1,0 +1,353 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 20 03:35:41 2026
+# Process ID         : 66255
+# Current directory  : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/scripts
+# Command line       : xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file           : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/scripts/xsim.log
+# Journal file       : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/scripts/xsim.jou
+# Running On         : pop-os
+# Platform           : Pop
+# Operating System   : Pop!_OS 22.04 LTS
+# Processor Detail   : AMD Ryzen 7 7800X3D 8-Core Processor
+# CPU Frequency      : 4830.708 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 32714 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 49894 MB
+# Available Virtual  : 38354 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -testplusarg UVM_TESTNAME=test -testplusarg UVM_VERBOSITY=UVM_LOW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 0: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'h7f  addr: 'h6  dout: 'h0  begin_time: 0  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 0: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'h7f  addr: 'h6  dout: 'h0  begin_time: 0  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 30000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'h7f  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 30000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'h7f  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 30000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 30000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :0 and tarr[data.addr] : 0 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 30000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hf2  addr: 'h7  dout: 'h0  begin_time: 30000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 30000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hf2  addr: 'h7  dout: 'h0  begin_time: 30000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 50000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hf2  addr: 'h7  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 50000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hf2  addr: 'h7  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 50000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :f2 and tarr[data.addr] : f2 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 50000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'hf1  addr: 'h6  dout: 'h0  begin_time: 50000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 50000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'hf1  addr: 'h6  dout: 'h0  begin_time: 50000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 90000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'hf1  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 90000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'hf1  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 90000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 90000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :0 and tarr[data.addr] : 0 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 90000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  begin_time: 90000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 90000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  begin_time: 90000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 110000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 110000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 110000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :25 and tarr[data.addr] : 25 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 110000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hee  addr: 'h4  dout: 'h0  begin_time: 110000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 110000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hee  addr: 'h4  dout: 'h0  begin_time: 110000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 130000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hee  addr: 'h4  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 130000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hee  addr: 'h4  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 130000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :ee and tarr[data.addr] : ee 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 130000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hf0  addr: 'h6  dout: 'h0  begin_time: 130000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 130000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hf0  addr: 'h6  dout: 'h0  begin_time: 130000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 150000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hf0  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 150000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hf0  addr: 'h6  dout: 'h0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 150000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :f0 and tarr[data.addr] : f0 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 150000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'hb4  addr: 'h7  dout: 'h0  begin_time: 150000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 150000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'hb4  addr: 'h7  dout: 'h0  begin_time: 150000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 190000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'hb4  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 190000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'hb4  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 190000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 190000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :25 and tarr[data.addr] : 25 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 190000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'had  addr: 'h5  dout: 'h0  begin_time: 190000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 190000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'had  addr: 'h5  dout: 'h0  begin_time: 190000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 210000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'had  addr: 'h5  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 210000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'had  addr: 'h5  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 210000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :ad and tarr[data.addr] : ad 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 210000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  begin_time: 210000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 210000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h0  begin_time: 210000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 230000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 230000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h25  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 230000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :25 and tarr[data.addr] : 25 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 230000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'h19  addr: 'h4  dout: 'h0  begin_time: 230000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 230000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'h19  addr: 'h4  dout: 'h0  begin_time: 230000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 270000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'h19  addr: 'h4  dout: 'hee  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 270000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'h19  addr: 'h4  dout: 'hee  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 270000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 270000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :ee and tarr[data.addr] : ee 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 270000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'h6c  addr: 'h5  dout: 'h0  begin_time: 270000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 270000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'h6c  addr: 'h5  dout: 'h0  begin_time: 270000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 310000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'h6c  addr: 'h5  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 310000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'h6c  addr: 'h5  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 310000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 310000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :ad and tarr[data.addr] : ad 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 310000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h42  addr: 'h3  dout: 'h0  begin_time: 310000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 310000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h42  addr: 'h3  dout: 'h0  begin_time: 310000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 330000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h42  addr: 'h3  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 330000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h42  addr: 'h3  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 330000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :42 and tarr[data.addr] : 42 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 330000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h67  addr: 'h4  dout: 'h0  begin_time: 330000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 330000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h67  addr: 'h4  dout: 'h0  begin_time: 330000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 350000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h67  addr: 'h4  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 350000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h67  addr: 'h4  dout: 'had  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 350000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :67 and tarr[data.addr] : 67 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 350000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'hb  addr: 'h4  dout: 'h0  begin_time: 350000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 350000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'hb  addr: 'h4  dout: 'h0  begin_time: 350000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 390000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'hb  addr: 'h4  dout: 'h67  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 390000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'hb  addr: 'h4  dout: 'h67  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 390000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 390000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :67 and tarr[data.addr] : 67 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 390000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'h1a  addr: 'h7  dout: 'h0  begin_time: 390000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 390000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'h1a  addr: 'h7  dout: 'h0  begin_time: 390000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 430000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'h1a  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 430000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'h1a  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 430000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 430000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :25 and tarr[data.addr] : 25 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 430000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'ha2  addr: 'h7  dout: 'h0  begin_time: 430000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 430000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'ha2  addr: 'h7  dout: 'h0  begin_time: 430000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 450000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'ha2  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 450000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'ha2  addr: 'h7  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 450000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :a2 and tarr[data.addr] : a2 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 450000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'ha5  addr: 'h3  dout: 'h0  begin_time: 450000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 450000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'ha5  addr: 'h3  dout: 'h0  begin_time: 450000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 470000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'ha5  addr: 'h3  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 470000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'ha5  addr: 'h3  dout: 'h25  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 470000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :a5 and tarr[data.addr] : a5 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 470000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'he9  addr: 'h7  dout: 'h0  begin_time: 470000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 470000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'he9  addr: 'h7  dout: 'h0  begin_time: 470000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 510000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'he9  addr: 'h7  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 510000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'he9  addr: 'h7  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 510000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 510000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :a2 and tarr[data.addr] : a2 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 510000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hde  addr: 'h7  dout: 'h0  begin_time: 510000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 510000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hde  addr: 'h7  dout: 'h0  begin_time: 510000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 530000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hde  addr: 'h7  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 530000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hde  addr: 'h7  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 530000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :de and tarr[data.addr] : de 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 530000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h17  addr: 'h3  dout: 'h0  begin_time: 530000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 530000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h17  addr: 'h3  dout: 'h0  begin_time: 530000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 550000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h17  addr: 'h3  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 550000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h17  addr: 'h3  dout: 'ha2  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 550000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :17 and tarr[data.addr] : 17 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 550000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h0  din: 'he9  addr: 'h6  dout: 'h0  begin_time: 550000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 550000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h0  din: 'he9  addr: 'h6  dout: 'h0  begin_time: 550000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 590000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h0  din: 'he9  addr: 'h6  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 590000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h0  din: 'he9  addr: 'h6  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(34) @ 590000: uvm_test_top.ENV.SCO [SCO] Test Passed 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(38) @ 590000: uvm_test_top.ENV.SCO [SCO] Data Read Oper dout :f0 and tarr[data.addr] : f0 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 590000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'he4  addr: 'h3  dout: 'h0  begin_time: 590000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 590000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'he4  addr: 'h3  dout: 'h0  begin_time: 590000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 610000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'he4  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 610000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'he4  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 610000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :e4 and tarr[data.addr] : e4 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 610000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h7e  addr: 'h7  dout: 'h0  begin_time: 610000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 610000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h7e  addr: 'h7  dout: 'h0  begin_time: 610000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 630000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h7e  addr: 'h7  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 630000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h7e  addr: 'h7  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 630000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :7e and tarr[data.addr] : 7e 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 630000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h90  addr: 'h3  dout: 'h0  begin_time: 630000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 630000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h90  addr: 'h3  dout: 'h0  begin_time: 630000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 650000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h90  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 650000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h90  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 650000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :90 and tarr[data.addr] : 90 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 650000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'h2  addr: 'h3  dout: 'h0  begin_time: 650000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 650000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'h2  addr: 'h3  dout: 'h0  begin_time: 650000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 670000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'h2  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 670000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'h2  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 670000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :2 and tarr[data.addr] : 2 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 670000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hbe  addr: 'h5  dout: 'h0  begin_time: 670000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 670000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hbe  addr: 'h5  dout: 'h0  begin_time: 670000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 690000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hbe  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 690000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hbe  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 690000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :be and tarr[data.addr] : be 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 690000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hf5  addr: 'h5  dout: 'h0  begin_time: 690000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 690000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hf5  addr: 'h5  dout: 'h0  begin_time: 690000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 710000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hf5  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 710000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hf5  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 710000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :f5 and tarr[data.addr] : f5 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 710000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hd1  addr: 'h3  dout: 'h0  begin_time: 710000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 710000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hd1  addr: 'h3  dout: 'h0  begin_time: 710000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 730000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hd1  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 730000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hd1  addr: 'h3  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 730000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :d1 and tarr[data.addr] : d1 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 730000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'hf4  addr: 'h6  dout: 'h0  begin_time: 730000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 730000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'hf4  addr: 'h6  dout: 'h0  begin_time: 730000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 750000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'hf4  addr: 'h6  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 750000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'hf4  addr: 'h6  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 750000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :f4 and tarr[data.addr] : f4 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/sequences/generator.sv(17) @ 750000: uvm_test_top.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver
+TRANS: (transaction@614) { wr: 'h1  din: 'ha8  addr: 'h5  dout: 'h0  begin_time: 750000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/drivers/driver.sv(24) @ 750000: uvm_test_top.ENV.AGENT.DRV [DRV] Send data to DUT
+TRANS: (transaction@614) { wr: 'h1  din: 'ha8  addr: 'h5  dout: 'h0  begin_time: 750000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): uvm_test_top.ENV.AGENT.SEQ.GEN  sequencer: uvm_test_top.ENV.AGENT.SEQ  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/monitors/monitor.sv(33) @ 770000: uvm_test_top.ENV.AGENT.MON [MON] Send data to Scoreboard
+TRANS: (transaction@588) { wr: 'h1  din: 'ha8  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(22) @ 770000: uvm_test_top.ENV.SCO [SCO] Data rcvd from Monitor
+TRANS: (transaction@588) { wr: 'h1  din: 'ha8  addr: 'h5  dout: 'hf0  } 
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 770000: uvm_test_top.ENV.SCO [SCO] Data Write Oper din :a8 and tarr[data.addr] : a8 
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 770000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 770000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  164
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    30
+[GEN]    30
+[MON]    30
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[SCO]    69
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 770 ns : File "/tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: xsimkernel Simulation Memory Usage: 306276 KB (Peak: 358740 KB), Simulation CPU Usage: 670 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 20 03:35:43 2026...

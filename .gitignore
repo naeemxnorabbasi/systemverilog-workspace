@@ -1,0 +1,31 @@
+# Build / sim artifacts (svfront has its own .gitignore inside submodule)
+**/build/
+**/build-*/
+*.vcd
+*.wdb
+**/xsim.dir/
+**/xelab.pb
+**/xvlog.pb
+xsc.pb
+
+# Local / bulky — not part of workspace recovery
+test_case_ref_prep/
+cloudflared*.deb
+.pytest_cache/
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+*~
+
+# svfront gitignored paths (when present at workspace level)
+external/
+local-install/
+install-*/
+
+# Editor
+.cursor/
+.continue/
+
+# Empty scratch
+tk

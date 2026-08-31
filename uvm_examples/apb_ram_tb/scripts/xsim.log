@@ -1,0 +1,208 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 20 03:30:44 2026
+# Process ID         : 63980
+# Current directory  : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/scripts
+# Command line       : xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file           : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/scripts/xsim.log
+# Journal file       : /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/scripts/xsim.jou
+# Running On         : pop-os
+# Platform           : Pop
+# Operating System   : Pop!_OS 22.04 LTS
+# Processor Detail   : AMD Ryzen 7 7800X3D 8-Core Processor
+# CPU Frequency      : 4864.929 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 32714 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 49894 MB
+# Available Virtual  : 38353 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -testplusarg UVM_TESTNAME=test -testplusarg UVM_VERBOSITY=UVM_LOW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(29) @ 10000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 10000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(29) @ 30000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 30000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(29) @ 50000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 50000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(29) @ 70000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 70000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(29) @ 90000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(28) @ 90000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 110000: uvm_test_top.env.a.d [DRV] mode:writed, addr:7, wdata:3591307424, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 170000: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:3591307424 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 170000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:3591307424 arr_wr:3591307424
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 190000: uvm_test_top.env.a.d [DRV] mode:writed, addr:14, wdata:4085732424, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 230000: uvm_test_top.env.a.m [MON] DATA WRITE addr:14 data:4085732424 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 230000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:14, wdata:4085732424 arr_wr:4085732424
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 250000: uvm_test_top.env.a.d [DRV] mode:writed, addr:19, wdata:779614967, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 290000: uvm_test_top.env.a.m [MON] DATA WRITE addr:19 data:779614967 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 290000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:19, wdata:779614967 arr_wr:779614967
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 310000: uvm_test_top.env.a.d [DRV] mode:writed, addr:8, wdata:115406026, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 350000: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:115406026 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 350000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:115406026 arr_wr:115406026
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 370000: uvm_test_top.env.a.d [DRV] mode:writed, addr:12, wdata:4240589344, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 410000: uvm_test_top.env.a.m [MON] DATA WRITE addr:12 data:4240589344 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 410000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:12, wdata:4240589344 arr_wr:4240589344
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 430000: uvm_test_top.env.a.d [DRV] mode:writed, addr:7, wdata:3491488452, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 470000: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:3491488452 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 470000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:3491488452 arr_wr:3491488452
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 490000: uvm_test_top.env.a.d [DRV] mode:writed, addr:15, wdata:3236812470, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 530000: uvm_test_top.env.a.m [MON] DATA WRITE addr:15 data:3236812470 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 530000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:15, wdata:3236812470 arr_wr:3236812470
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 550000: uvm_test_top.env.a.d [DRV] mode:writed, addr:18, wdata:255335944, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 590000: uvm_test_top.env.a.m [MON] DATA WRITE addr:18 data:255335944 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 590000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:18, wdata:255335944 arr_wr:255335944
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 610000: uvm_test_top.env.a.d [DRV] mode:writed, addr:19, wdata:4210735304, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 650000: uvm_test_top.env.a.m [MON] DATA WRITE addr:19 data:4210735304 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 650000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:19, wdata:4210735304 arr_wr:4210735304
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 670000: uvm_test_top.env.a.d [DRV] mode:writed, addr:8, wdata:70624937, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 710000: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:70624937 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 710000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:70624937 arr_wr:70624937
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 730000: uvm_test_top.env.a.d [DRV] mode:writed, addr:19, wdata:719906834, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 770000: uvm_test_top.env.a.m [MON] DATA WRITE addr:19 data:719906834 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 770000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:19, wdata:719906834 arr_wr:719906834
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 790000: uvm_test_top.env.a.d [DRV] mode:writed, addr:16, wdata:4011097279, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:16 data:4011097279 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:16, wdata:4011097279 arr_wr:4011097279
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 850000: uvm_test_top.env.a.d [DRV] mode:writed, addr:27, wdata:2428003533, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 890000: uvm_test_top.env.a.m [MON] DATA WRITE addr:27 data:2428003533 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 890000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:27, wdata:2428003533 arr_wr:2428003533
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 910000: uvm_test_top.env.a.d [DRV] mode:writed, addr:3, wdata:2413076498, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 950000: uvm_test_top.env.a.m [MON] DATA WRITE addr:3 data:2413076498 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 950000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:3, wdata:2413076498 arr_wr:2413076498
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(74) @ 970000: uvm_test_top.env.a.d [DRV] mode:writed, addr:19, wdata:3966316205, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(39) @ 1010000: uvm_test_top.env.a.m [MON] DATA WRITE addr:19 data:3966316205 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(39) @ 1010000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:19, wdata:3966316205 arr_wr:3966316205
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1030000: uvm_test_top.env.a.d [DRV] mode:readd, addr:9, wdata:645271736, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1070000: uvm_test_top.env.a.m [MON] DATA READ addr:9 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1070000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:9, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1090000: uvm_test_top.env.a.d [DRV] mode:readd, addr:13, wdata:4261103103, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1130000: uvm_test_top.env.a.m [MON] DATA READ addr:13 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1130000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:13, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1150000: uvm_test_top.env.a.d [DRV] mode:readd, addr:28, wdata:3002650332, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1190000: uvm_test_top.env.a.m [MON] DATA READ addr:28 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1190000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:28, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1210000: uvm_test_top.env.a.d [DRV] mode:readd, addr:29, wdata:91138764, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1250000: uvm_test_top.env.a.m [MON] DATA READ addr:29 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1250000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:29, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1270000: uvm_test_top.env.a.d [DRV] mode:readd, addr:20, wdata:4116503019, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1310000: uvm_test_top.env.a.m [MON] DATA READ addr:20 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1310000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:20, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1330000: uvm_test_top.env.a.d [DRV] mode:readd, addr:15, wdata:3267583159, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1370000: uvm_test_top.env.a.m [MON] DATA READ addr:15 data:3236812470 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1370000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:15, rdata:3236812470
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1390000: uvm_test_top.env.a.d [DRV] mode:readd, addr:30, wdata:2913088182, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1430000: uvm_test_top.env.a.m [MON] DATA READ addr:30 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1430000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:30, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1450000: uvm_test_top.env.a.d [DRV] mode:readd, addr:4, wdata:4126759943, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1490000: uvm_test_top.env.a.m [MON] DATA READ addr:4 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1490000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:4, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1510000: uvm_test_top.env.a.d [DRV] mode:readd, addr:31, wdata:3687372991, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1550000: uvm_test_top.env.a.m [MON] DATA READ addr:31 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1550000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:31, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1570000: uvm_test_top.env.a.d [DRV] mode:readd, addr:23, wdata:2668669106, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1610000: uvm_test_top.env.a.m [MON] DATA READ addr:23 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1610000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:23, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1630000: uvm_test_top.env.a.d [DRV] mode:readd, addr:19, wdata:4291873769, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1670000: uvm_test_top.env.a.m [MON] DATA READ addr:19 data:3966316205 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1670000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:19, rdata:3966316205
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1690000: uvm_test_top.env.a.d [DRV] mode:readd, addr:4, wdata:1040794300, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1730000: uvm_test_top.env.a.m [MON] DATA READ addr:4 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1730000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:4, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1750000: uvm_test_top.env.a.d [DRV] mode:readd, addr:11, wdata:3652848793, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1790000: uvm_test_top.env.a.m [MON] DATA READ addr:11 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1790000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:11, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1810000: uvm_test_top.env.a.d [DRV] mode:readd, addr:10, wdata:3538102749, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1850000: uvm_test_top.env.a.m [MON] DATA READ addr:10 data:0 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1850000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:10, rdata:0
+----------------------------------------------------------------
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/drivers/driver.sv(88) @ 1870000: uvm_test_top.env.a.d [DRV] mode:readd, addr:19, wdata:3917781699, rdata:x, slverr:x
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/monitors/monitor.sv(49) @ 1910000: uvm_test_top.env.a.m [MON] DATA READ addr:19 data:3966316205 slverr:0
+UVM_INFO /home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/apb_ram_tb/testbench/scoreboards/scoreboard.sv(52) @ 1910000: uvm_test_top.env.s [SCO] DATA MATCHED : addr:19, rdata:3966316205
+----------------------------------------------------------------
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 1930000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 1930000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  105
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    30
+[MON]    35
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[SCO]    35
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 1930 ns : File "/tools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: xsimkernel Simulation Memory Usage: 317160 KB (Peak: 361112 KB), Simulation CPU Usage: 670 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 20 03:30:46 2026...

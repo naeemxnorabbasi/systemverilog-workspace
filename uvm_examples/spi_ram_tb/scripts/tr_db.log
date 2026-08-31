@@ -1,0 +1,2 @@
+  CREATE_STREAM @0 {NAME:wrrdb T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:630}
+  CREATE_STREAM @0 {NAME:wrrdb T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:630}

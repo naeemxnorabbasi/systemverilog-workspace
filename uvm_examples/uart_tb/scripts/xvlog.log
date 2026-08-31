@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/uart_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/clk_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/uart_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/uart.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/sequences/transaction.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/drivers/driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/monitors/monitor.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/sequences/generator.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/agents/agent.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/scoreboards/scoreboard.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/env/env.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/testbench/tests/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/naeemxnorabbasi/next_gen_tools_utilities/front_end/system_verilog/uvm_examples/uart_tb/src/uart_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tb

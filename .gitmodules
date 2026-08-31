@@ -1,0 +1,7 @@
+[submodule "svfront"]
+	path = svfront
+	url = https://github.com/naeemxnorabbasi/systemverilog-parser.git
+	branch = feat/h1-native-primary-nk-tb
+[submodule "third_party/opentitan"]
+	path = third_party/opentitan
+	url = https://github.com/lowRISC/opentitan.git

@@ -1,0 +1,2 @@
+  CREATE_STREAM @0 {NAME:mgen T:Transactions SCOPE:uvm_test_top.env.vseqr STREAM:994}
+  CREATE_STREAM @0 {NAME:mseq T:Transactions SCOPE:uvm_test_top.env.ma.m_seqr STREAM:1003}

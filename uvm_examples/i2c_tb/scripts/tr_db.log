@@ -1,0 +1,6 @@
+  CREATE_STREAM @0 {NAME:rstdut T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:623}
+  CREATE_STREAM @290000 {NAME:wdata T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:804}
+  CREATE_STREAM @7830000 {NAME:rdata T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:988}
+  CREATE_STREAM @0 {NAME:rstdut T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:623}
+  CREATE_STREAM @290000 {NAME:wdata T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:804}
+  CREATE_STREAM @7830000 {NAME:rdata T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:988}
